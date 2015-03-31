@@ -6,6 +6,7 @@ require 'cgi'
 
 token = ENV.fetch("API_KEY") { abort "ERROR: the API_KEY is required. run `export API_KEY=xxxx`" }
 url = "https://rightsignature.com/api/documents.json"
+Dir.mkdir 'docs' unless File.exists?('docs')
 
 result = JSON.parse Http.with_headers("api-token" => token).get(url).to_s
 
