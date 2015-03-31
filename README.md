@@ -28,6 +28,13 @@ Requirements
 * I ran this on Ruby 2.2, but this _should_ work on Ruby 2.0 and up
 * You should have curl installed #sorrynotsorry
 
+Notes
+-----
+
+You may not actually need to do this :) From Right Signature staff after
+cancelling: "Your login credentials will still gain you access to all of your
+executed documents." -- Pretty awesome Right Signature. Pretty Awesome.
+
 License
 -------
 
